@@ -1,0 +1,88 @@
+body {
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 0.03em;
+    color: #2F4858;
+    background-color: #f4e2d8;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+}
+  html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 0;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .container {
+    width: 800px;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    color: #F7B733;
+  }
+  .second-title{
+    text-align: center;
+    font-size:28px;
+    color:#A3C1AD;
+  }
+  .list {
+    list-style: square;
+    font-size: 20px;
+  }
+  .list-item:first-child{
+    margin-bottom: 15px;
+  }
+  .input-title{
+    text-align: center;
+    font-size:26px;
+    color:#A3C1AD;
+  }
+  .text-input{
+    display: block;
+    width: 80%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-family: inherit;
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    border:1px solid #A3C1AD;
+    color:inherit;
+  }
+
+  .text-input:focus,
+  .text-input:hover{
+    border: 2px solid #F7B733;
+    outline: #F7B733;
+  }
+
+  .text{
+    font-size: 28px;
+    text-align: center;
+  }
+  .accent-text{
+    font-size: 35px;
+    color:#F7B733;
+  }
